@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  background-color: rgb(171, 171, 171);
+}
+header{
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    height: 130px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 20px;
+    max-width: 700px;
+    min-width: 300px;
+    margin: auto;
+}
+header h1{
+    font-family: 'Passion One', arial,sans-serif;
+    text-shadow: 2px 2px 3px rgba(255, 255, 255, 0.216);
+}
+header > p {
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-top: 6px;
+}
+p > a{
+   
+  color: white;
+  text-decoration: none;
+  font-style: italic;
+   
+}
+a:hover{
+    text-decoration: underline;
+    background-color: rgba(66, 66, 66, 0.293);
+   
+}
+section{
+    background-color: white;
+    max-width: 686px;
+    min-width: 300px;
+     margin: auto;
+    padding: 7px;
+    
+}
+section > main#fotofundo{
+    background-image: url('imagens/background001.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+section > main#fotofundo2{
+    background-image: url('imagens/background002.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 20px;
+}
+#fotofundo2 > p{
+    background-color: rgba(56, 56, 56, 0.31);
+    color: white;
+    border-radius: 7px;
+}
+main{
+    background-color: white;
+    max-width: 700px;
+    min-width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+main#fotofundo > p {
+    
+    margin-left: 15px;
+    background-color: rgba(96, 92, 92, 0.303);
+    color: white;
+    border-radius: 6px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+   
+}
+ p{
+    font-family: 'Sriracha', arial,sans-serif;
+    text-align: left;
+    font-size: 18px;
+    max-width: 200px;
+    min-width: 100px;
+    margin-left: 15px;
+    padding: 10px;
+    padding-top: 30px;
+    
+}
+footer{
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+footer > p{
+    font-size: 10px;
+    text-align: center;
+    padding: 1px;
+    padding-top: 1px;
+    margin: auto;
+}

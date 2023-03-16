@@ -53,18 +53,21 @@ section{
 section > main#fotofundo{
     background-image: url('imagens/background001.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-top: 20px;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.344);
+
 }
 section > main#fotofundo2{
     background-image: url('imagens/background002.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: cover;
     padding-top: 20px;
+    box-shadow: inset 2px 2px 3px rgba(0, 0, 0, 0.344);
 }
 #fotofundo2 > p{
     background-color: rgba(56, 56, 56, 0.31);
